@@ -19,15 +19,6 @@
 
 3. Ready to go
 
-Everything is the same except for that you need to replace the "updater.exe" in root path of this project with the one you just compile.
+Everything is the same except that you need to replace the "updater.exe" in root path of this project with the one you just compile.
 
-## Notice
-1. File nac.manifest / nac.syso only needed when your program require UAC on windows
-2. You can generate nac.syso by way of 
-
-```shell
-go get github.com/akavel/rsrc
-rsrc -manifest nac.manifest -o nac.syso
-go build -ldflags "-H windowsgui" -o updater.exe
-```
 

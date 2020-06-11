@@ -12,7 +12,7 @@
 
 2. Run following command. You will get an updater.exe in current path
 
-> go build -ldflags "-H windowsgui" -o updater.exe
+> go build -ldflags "-H windowsgui" -o updater.exe 
 
 -ldflags "-H windowsgui" : indicate that this program should run background instead of prompting a CMD window
 -o : compile our program to specific file, here name is updater.exe

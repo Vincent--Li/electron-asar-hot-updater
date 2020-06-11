@@ -8,7 +8,7 @@
 
 1. Prerequisite.
 
-> The golang environment. (Go 1.14.4 over my machine, others may work as well)
+> The golang environment. (Go 1.14.4 / Windows 10, others may work as well)
 
 2. Run following command. You will get an updater.exe in current path
 
